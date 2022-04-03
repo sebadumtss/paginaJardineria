@@ -10,73 +10,91 @@
     text-align: center;
 }
 
-/* CUALIDADES DE FONT */
-h1 {
-    font-size: 150px;
-    color: white;
-}
-
-h2 {
-    font-size: 300px;
-    color: white;
-}
-
-h3 {
-    font-size: 300px;
-    color: white;
-}
-
-h4 {
-    font-size: 10px;
-    color: white;
-}
-
-h5 {
-    font-size: 300px;
-    color: rgb(165, 42, 42);
-}
-
-h6 {
-    font-size: 300px;
-    color: rgb(165, 42, 42);
+/* PRODUCTOS DESTACADOS */
+#destacados {
+    background-color: rgb(255, 245, 230);
 }
 
 /* MAIN/PRODUCTOS */
 #main {
-    background-color: rgb(85, 10, 10);
+    background-color: #51302a;
     color: white;
-    opacity: 90%;
+    opacity: 95%;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+    padding: 5%;
     box-sizing: border-box;
     float: center;
 }
 
-/* QUIENES SOMOS */
-#nosotros1, #nosotros2 {
-    color: black;
+#main nav ul li a {
+    color: rgb(255, 255, 255);
+    width: 150%;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
     padding: 3%;
-    float: center;
 }
 
+#main nav ul li a:hover {
+    color: rgb(216, 180, 20);
+    transition: 1s;
+}
+
+/* NOSOTROS 1 ################################ */
 #nosotros1 {
     background-color:rgb(255, 245, 230);
-    opacity: 90%;
-    height: 20vw;
+    color: brown;
+    opacity:85%;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+    padding: 3%;
     box-sizing: border-box;
 }
 
+/* NOSOTROS 2 ################################ */
 #nosotros2 {
     background-color:rgb(65, 150, 65);
-    height: 10vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 3%;
     box-sizing: border-box;
 }
 
-/* MEDIDAS IMGs CARRUSEL */
+#nosotros2 ul li {
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#nosotros2 ul li a {
+    color: rgb(255, 255, 255);
+    width: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5%;
+}
+
+#nosotros2 ul li a:hover {
+    color: rgb(216, 180, 20);
+    transition: 1s;
+}
+
+/* MEDIDAS IMGs CARRUSEL ##################### */
 img{
     width: 100%;
     height: 45vw;
 }
 
-/* BG Color y Font */
+/* BG Color y Font ########################### */ 
 body {
     background-color: rgb(220, 255, 200);
     background-image: url('../P1Img/Jardin.jpg');
